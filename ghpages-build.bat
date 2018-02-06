@@ -1,0 +1,1 @@
+ng build --prod --base-href "https://johndeverall.github.io/eclipxgroup-single-page/"
