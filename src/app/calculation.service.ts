@@ -23,7 +23,7 @@ export class CalculationService {
   resultsObservable = this.results.asObservable();
 
   // private host: string = 'api.quotecrunchers.com';
-  private host: string = 'localhost';
+  private host: string = 'quotecrunchers.com:8888';
 
   private _isValidQuote = new BehaviorSubject<boolean>(false);
   isValidQuoteObservable = this._isValidQuote.asObservable();
