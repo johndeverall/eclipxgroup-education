@@ -100,9 +100,9 @@ export class EntryComponent implements OnInit {
     this.leaseType = selection;
     this._calculator.leaseType = selection;
     this.emailSendText = 'Send';
-    if (selection === 'v5-operating-lease-eclipx') {
+    if (selection === 'v5-operating-lease-eclipx-education') {
       this.leaseTypeTitle = 'Operating lease';
-    } else if (selection === 'v5-lease-to-own-eclipx') {
+    } else if (selection === 'v5-lease-to-own-eclipx-education') {
       this.leaseTypeTitle = 'Lease to own';
     } else {
       this.leaseTypeTitle = 'Operating lease';
